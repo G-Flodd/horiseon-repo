@@ -1,51 +1,52 @@
+/*The whole page box sizing, padding and margin style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Style for h1 attributes this includes font, size and colour*/
 h1 {
     display: inline-block;
     font-size: 48px;
      color: #d9dcd6;
 }
-
+/*Style for h2 attributes this includes font, size and colour*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Style for h3 attributes this includes font, size and colour*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Style for h4 attributes this includes font, size and colour*/
 h4 {
     font-size: 20px;
 }
-
+/*Style for link attributes this includes font, size, colour and display*/
 a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Style for paragraph attributes, this includes font size*/
 p {
     font-size: 16px;
 }
-
+/*Style for main body attributes this includes whole page back ground colour*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Style for header attributes include padding, font, background colour and text colour*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Style for navigation attributes includes top padding, right margin, float position, font and font size  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -53,7 +54,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Style for hero including height, width, margin bottom, background image link, background image size and background image position */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,7 +63,7 @@ nav {
     background-size: cover;
     background-position: center;
 }
-
+/*Style for the main section class section including bottom margin, padding, height, font, background colour and text colour */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,27 +72,27 @@ nav {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Style for the main section images including the max height */
 .main-section img {
     max-height: 200px;
 }
-
+/* Style for the float left class including the float position and the right margin*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Style for the float right class including the float position and the right margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Style for the content class section including width, display type and left margin*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Style for the benefits class section including right margin, padding, float position, width, height, font and background colour*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,18 +103,18 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Style for the benefit section including bottom margins and text colour*/
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Style for the benefit section images including display type, margin and max width*/
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Style for the footer including padding, font and allignment of text*/
 footer {
     padding: 30px;
     clear: both;
